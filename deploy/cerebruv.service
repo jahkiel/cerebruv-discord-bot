@@ -1,0 +1,54 @@
+# systemd unit for Cerebruv.
+#
+# Install on the server with:
+#   sudo cp deploy/cerebruv.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now cerebruv
+#
+# Day-to-day commands:
+#   sudo systemctl restart cerebruv     after pulling new code
+#   sudo systemctl status cerebruv      is it running?
+#   journalctl -u cerebruv -f           live logs
+#
+# Why systemd rather than pm2: it is already on the server, it starts the bot
+# on boot without a separate startup hook, and it restarts on crash. The bot
+# deliberately exits on an uncaught exception (see src/index.js) precisely so
+# something like this can restart it cleanly.
+
+[Unit]
+Description=Cerebruv Discord bot
+Documentation=https://github.com/YOUR_USERNAME/cerebruv
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/cerebruv
+
+# --env-file-if-exists keeps this identical to how the bot runs locally, so
+# there is one way secrets are loaded rather than two.
+ExecStart=/usr/bin/node --env-file-if-exists=.env src/index.js
+
+Restart=always
+RestartSec=10
+
+# If it crashes 5 times in 60 seconds something is genuinely broken — stop
+# restarting so the logs stay readable instead of scrolling forever.
+StartLimitBurst=5
+StartLimitIntervalSec=60
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=cerebruv
+
+# Modest hardening. The bot only needs to read its own directory and talk out
+# to Discord.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/ubuntu/cerebruv
+
+[Install]
+WantedBy=multi-user.target

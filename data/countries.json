@@ -1,0 +1,2946 @@
+{
+  "_comment": "Country -> subregion + IANA timezone mapping. Flag emoji are DERIVED from the ISO code at runtime, never stored. Zones validated against Intl.supportedValuesOf('timeZone').",
+  "subregionOrder": [
+    "Northern Africa",
+    "Western Africa",
+    "Middle Africa",
+    "Eastern Africa",
+    "Southern Africa",
+    "Northern America",
+    "Central America",
+    "Caribbean",
+    "South America",
+    "Northern Europe",
+    "Western Europe",
+    "Eastern Europe",
+    "Southern Europe",
+    "Central Asia",
+    "Eastern Asia",
+    "South-Eastern Asia",
+    "Southern Asia",
+    "Western Asia",
+    "Australia & New Zealand",
+    "Melanesia",
+    "Micronesia",
+    "Polynesia"
+  ],
+  "countries": [
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "subregion": "Southern Asia",
+      "zones": [
+        {
+          "id": "Asia/Kabul",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AX",
+      "name": "Åland Islands",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/Mariehamn",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AL",
+      "name": "Albania",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Tirane",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "subregion": "Northern Africa",
+      "zones": [
+        {
+          "id": "Africa/Algiers",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AS",
+      "name": "American Samoa",
+      "subregion": "Polynesia",
+      "zones": [
+        {
+          "id": "Pacific/Pago_Pago",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AD",
+      "name": "Andorra",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Andorra",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AO",
+      "name": "Angola",
+      "subregion": "Middle Africa",
+      "zones": [
+        {
+          "id": "Africa/Luanda",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AI",
+      "name": "Anguilla",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Anguilla",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Antigua",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/Argentina/Buenos_Aires",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AM",
+      "name": "Armenia",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Yerevan",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AW",
+      "name": "Aruba",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Aruba",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "subregion": "Australia & New Zealand",
+      "zones": [
+        {
+          "id": "Australia/Sydney",
+          "label": "Sydney / Melbourne / Canberra"
+        },
+        {
+          "id": "Australia/Brisbane",
+          "label": "Brisbane"
+        },
+        {
+          "id": "Australia/Perth",
+          "label": "Perth"
+        },
+        {
+          "id": "Australia/Adelaide",
+          "label": "Adelaide"
+        },
+        {
+          "id": "Australia/Hobart",
+          "label": "Hobart"
+        },
+        {
+          "id": "Australia/Darwin",
+          "label": "Darwin"
+        }
+      ]
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "subregion": "Western Europe",
+      "zones": [
+        {
+          "id": "Europe/Vienna",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Baku",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BS",
+      "name": "Bahamas",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Nassau",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BH",
+      "name": "Bahrain",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Bahrain",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "subregion": "Southern Asia",
+      "zones": [
+        {
+          "id": "Asia/Dhaka",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BB",
+      "name": "Barbados",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Barbados",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "subregion": "Eastern Europe",
+      "zones": [
+        {
+          "id": "Europe/Minsk",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "subregion": "Western Europe",
+      "zones": [
+        {
+          "id": "Europe/Brussels",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BZ",
+      "name": "Belize",
+      "subregion": "Central America",
+      "zones": [
+        {
+          "id": "America/Belize",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BJ",
+      "name": "Benin",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Porto-Novo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BM",
+      "name": "Bermuda",
+      "subregion": "Northern America",
+      "zones": [
+        {
+          "id": "Atlantic/Bermuda",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BT",
+      "name": "Bhutan",
+      "subregion": "Southern Asia",
+      "zones": [
+        {
+          "id": "Asia/Thimphu",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/La_Paz",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Sarajevo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BW",
+      "name": "Botswana",
+      "subregion": "Southern Africa",
+      "zones": [
+        {
+          "id": "Africa/Gaborone",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/Sao_Paulo",
+          "label": "São Paulo / Rio / Brasília"
+        },
+        {
+          "id": "America/Manaus",
+          "label": "Manaus / Cuiabá (Amazon)"
+        },
+        {
+          "id": "America/Rio_Branco",
+          "label": "Rio Branco / Acre"
+        },
+        {
+          "id": "America/Noronha",
+          "label": "Fernando de Noronha"
+        }
+      ]
+    },
+    {
+      "code": "VG",
+      "name": "British Virgin Islands",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Tortola",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BN",
+      "name": "Brunei",
+      "subregion": "South-Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Brunei",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "subregion": "Eastern Europe",
+      "zones": [
+        {
+          "id": "Europe/Sofia",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BF",
+      "name": "Burkina Faso",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Ouagadougou",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BI",
+      "name": "Burundi",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Bujumbura",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "KH",
+      "name": "Cambodia",
+      "subregion": "South-Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Phnom_Penh",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CM",
+      "name": "Cameroon",
+      "subregion": "Middle Africa",
+      "zones": [
+        {
+          "id": "Africa/Douala",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "subregion": "Northern America",
+      "zones": [
+        {
+          "id": "America/Toronto",
+          "label": "Toronto / Ottawa (Eastern)"
+        },
+        {
+          "id": "America/Vancouver",
+          "label": "Vancouver (Pacific)"
+        },
+        {
+          "id": "America/Edmonton",
+          "label": "Calgary / Edmonton (Mountain)"
+        },
+        {
+          "id": "America/Winnipeg",
+          "label": "Winnipeg (Central)"
+        },
+        {
+          "id": "America/Halifax",
+          "label": "Halifax (Atlantic)"
+        },
+        {
+          "id": "America/Regina",
+          "label": "Saskatchewan (no DST)"
+        },
+        {
+          "id": "America/St_Johns",
+          "label": "St. John's (Newfoundland)"
+        },
+        {
+          "id": "America/Whitehorse",
+          "label": "Whitehorse / Yukon"
+        }
+      ]
+    },
+    {
+      "code": "CV",
+      "name": "Cape Verde",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Atlantic/Cape_Verde",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BQ",
+      "name": "Caribbean Netherlands",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Kralendijk",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "KY",
+      "name": "Cayman Islands",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Cayman",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CF",
+      "name": "Central African Republic",
+      "subregion": "Middle Africa",
+      "zones": [
+        {
+          "id": "Africa/Bangui",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TD",
+      "name": "Chad",
+      "subregion": "Middle Africa",
+      "zones": [
+        {
+          "id": "Africa/Ndjamena",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/Santiago",
+          "label": "Santiago / mainland"
+        },
+        {
+          "id": "America/Punta_Arenas",
+          "label": "Punta Arenas / Magallanes"
+        },
+        {
+          "id": "Pacific/Easter",
+          "label": "Easter Island"
+        }
+      ]
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "subregion": "Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Shanghai",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CX",
+      "name": "Christmas Island",
+      "subregion": "Australia & New Zealand",
+      "zones": [
+        {
+          "id": "Indian/Christmas",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CC",
+      "name": "Cocos Islands",
+      "subregion": "Australia & New Zealand",
+      "zones": [
+        {
+          "id": "Indian/Cocos",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/Bogota",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "KM",
+      "name": "Comoros",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Indian/Comoro",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CK",
+      "name": "Cook Islands",
+      "subregion": "Polynesia",
+      "zones": [
+        {
+          "id": "Pacific/Rarotonga",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CR",
+      "name": "Costa Rica",
+      "subregion": "Central America",
+      "zones": [
+        {
+          "id": "America/Costa_Rica",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CI",
+      "name": "Côte d'Ivoire",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Abidjan",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Zagreb",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CU",
+      "name": "Cuba",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Havana",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CW",
+      "name": "Curaçao",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Curacao",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CY",
+      "name": "Cyprus",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Nicosia",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "subregion": "Eastern Europe",
+      "zones": [
+        {
+          "id": "Europe/Prague",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/Copenhagen",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "DJ",
+      "name": "Djibouti",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Djibouti",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "DM",
+      "name": "Dominica",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Dominica",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "DO",
+      "name": "Dominican Republic",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Santo_Domingo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CD",
+      "name": "DR Congo",
+      "subregion": "Middle Africa",
+      "zones": [
+        {
+          "id": "Africa/Kinshasa",
+          "label": "Kinshasa / western DRC"
+        },
+        {
+          "id": "Africa/Lubumbashi",
+          "label": "Lubumbashi / eastern DRC"
+        }
+      ]
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/Guayaquil",
+          "label": "Quito / Guayaquil (mainland)"
+        },
+        {
+          "id": "Pacific/Galapagos",
+          "label": "Galápagos Islands"
+        }
+      ]
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "subregion": "Northern Africa",
+      "zones": [
+        {
+          "id": "Africa/Cairo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SV",
+      "name": "El Salvador",
+      "subregion": "Central America",
+      "zones": [
+        {
+          "id": "America/El_Salvador",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GQ",
+      "name": "Equatorial Guinea",
+      "subregion": "Middle Africa",
+      "zones": [
+        {
+          "id": "Africa/Malabo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "ER",
+      "name": "Eritrea",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Asmara",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "EE",
+      "name": "Estonia",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/Tallinn",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SZ",
+      "name": "Eswatini",
+      "subregion": "Southern Africa",
+      "zones": [
+        {
+          "id": "Africa/Mbabane",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Addis_Ababa",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "FK",
+      "name": "Falkland Islands",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "Atlantic/Stanley",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "FO",
+      "name": "Faroe Islands",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Atlantic/Faroe",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "FJ",
+      "name": "Fiji",
+      "subregion": "Melanesia",
+      "zones": [
+        {
+          "id": "Pacific/Fiji",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/Helsinki",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "subregion": "Western Europe",
+      "zones": [
+        {
+          "id": "Europe/Paris",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GF",
+      "name": "French Guiana",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/Cayenne",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "PF",
+      "name": "French Polynesia",
+      "subregion": "Polynesia",
+      "zones": [
+        {
+          "id": "Pacific/Tahiti",
+          "label": "Tahiti / Society Islands"
+        },
+        {
+          "id": "Pacific/Marquesas",
+          "label": "Marquesas Islands"
+        },
+        {
+          "id": "Pacific/Gambier",
+          "label": "Gambier Islands"
+        }
+      ]
+    },
+    {
+      "code": "GA",
+      "name": "Gabon",
+      "subregion": "Middle Africa",
+      "zones": [
+        {
+          "id": "Africa/Libreville",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GM",
+      "name": "Gambia",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Banjul",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Tbilisi",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "subregion": "Western Europe",
+      "zones": [
+        {
+          "id": "Europe/Berlin",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Accra",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GI",
+      "name": "Gibraltar",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Gibraltar",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Athens",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GL",
+      "name": "Greenland",
+      "subregion": "Northern America",
+      "zones": [
+        {
+          "id": "America/Nuuk",
+          "label": "Nuuk / most of Greenland"
+        },
+        {
+          "id": "America/Thule",
+          "label": "Qaanaaq / Pituffik"
+        },
+        {
+          "id": "America/Scoresbysund",
+          "label": "Ittoqqortoormiit"
+        },
+        {
+          "id": "America/Danmarkshavn",
+          "label": "Danmarkshavn"
+        }
+      ]
+    },
+    {
+      "code": "GD",
+      "name": "Grenada",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Grenada",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GP",
+      "name": "Guadeloupe",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Guadeloupe",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GU",
+      "name": "Guam",
+      "subregion": "Micronesia",
+      "zones": [
+        {
+          "id": "Pacific/Guam",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GT",
+      "name": "Guatemala",
+      "subregion": "Central America",
+      "zones": [
+        {
+          "id": "America/Guatemala",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GG",
+      "name": "Guernsey",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/Guernsey",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GN",
+      "name": "Guinea",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Conakry",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Bissau",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GY",
+      "name": "Guyana",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/Guyana",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "HT",
+      "name": "Haiti",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Port-au-Prince",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "HN",
+      "name": "Honduras",
+      "subregion": "Central America",
+      "zones": [
+        {
+          "id": "America/Tegucigalpa",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong",
+      "subregion": "Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Hong_Kong",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "subregion": "Eastern Europe",
+      "zones": [
+        {
+          "id": "Europe/Budapest",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Atlantic/Reykjavik",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "subregion": "Southern Asia",
+      "zones": [
+        {
+          "id": "Asia/Kolkata",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "subregion": "South-Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Jakarta",
+          "label": "Jakarta / Western (WIB)"
+        },
+        {
+          "id": "Asia/Makassar",
+          "label": "Makassar / Bali (WITA)"
+        },
+        {
+          "id": "Asia/Jayapura",
+          "label": "Jayapura / Eastern (WIT)"
+        }
+      ]
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "subregion": "Southern Asia",
+      "zones": [
+        {
+          "id": "Asia/Tehran",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Baghdad",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/Dublin",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "IM",
+      "name": "Isle of Man",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/Isle_of_Man",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Jerusalem",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Rome",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "JM",
+      "name": "Jamaica",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Jamaica",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "subregion": "Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Tokyo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "JE",
+      "name": "Jersey",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/Jersey",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Amman",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "subregion": "Central Asia",
+      "zones": [
+        {
+          "id": "Asia/Almaty",
+          "label": "Almaty / Astana"
+        },
+        {
+          "id": "Asia/Aqtobe",
+          "label": "Aqtobe"
+        },
+        {
+          "id": "Asia/Aqtau",
+          "label": "Aqtau / Mangystau"
+        }
+      ]
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Nairobi",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "KI",
+      "name": "Kiribati",
+      "subregion": "Micronesia",
+      "zones": [
+        {
+          "id": "Pacific/Tarawa",
+          "label": "Tarawa / Gilbert Islands"
+        },
+        {
+          "id": "Pacific/Kiritimati",
+          "label": "Kiritimati / Line Islands"
+        },
+        {
+          "id": "Pacific/Kanton",
+          "label": "Kanton / Phoenix Islands"
+        }
+      ]
+    },
+    {
+      "code": "XK",
+      "name": "Kosovo",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Belgrade",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Kuwait",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "subregion": "Central Asia",
+      "zones": [
+        {
+          "id": "Asia/Bishkek",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "LA",
+      "name": "Laos",
+      "subregion": "South-Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Vientiane",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/Riga",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "LB",
+      "name": "Lebanon",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Beirut",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "LS",
+      "name": "Lesotho",
+      "subregion": "Southern Africa",
+      "zones": [
+        {
+          "id": "Africa/Maseru",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "LR",
+      "name": "Liberia",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Monrovia",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "subregion": "Northern Africa",
+      "zones": [
+        {
+          "id": "Africa/Tripoli",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "LI",
+      "name": "Liechtenstein",
+      "subregion": "Western Europe",
+      "zones": [
+        {
+          "id": "Europe/Vaduz",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/Vilnius",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "subregion": "Western Europe",
+      "zones": [
+        {
+          "id": "Europe/Luxembourg",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MO",
+      "name": "Macau",
+      "subregion": "Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Macau",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Indian/Antananarivo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MW",
+      "name": "Malawi",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Blantyre",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "subregion": "South-Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Kuala_Lumpur",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MV",
+      "name": "Maldives",
+      "subregion": "Southern Asia",
+      "zones": [
+        {
+          "id": "Indian/Maldives",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "ML",
+      "name": "Mali",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Bamako",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MT",
+      "name": "Malta",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Malta",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MH",
+      "name": "Marshall Islands",
+      "subregion": "Micronesia",
+      "zones": [
+        {
+          "id": "Pacific/Majuro",
+          "label": "Majuro"
+        },
+        {
+          "id": "Pacific/Kwajalein",
+          "label": "Kwajalein"
+        }
+      ]
+    },
+    {
+      "code": "MQ",
+      "name": "Martinique",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Martinique",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MR",
+      "name": "Mauritania",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Nouakchott",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Indian/Mauritius",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "YT",
+      "name": "Mayotte",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Indian/Mayotte",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "subregion": "Central America",
+      "zones": [
+        {
+          "id": "America/Mexico_City",
+          "label": "Mexico City (Central)"
+        },
+        {
+          "id": "America/Cancun",
+          "label": "Cancún / Quintana Roo (Eastern)"
+        },
+        {
+          "id": "America/Mazatlan",
+          "label": "Mazatlán (Mountain)"
+        },
+        {
+          "id": "America/Hermosillo",
+          "label": "Hermosillo / Sonora"
+        },
+        {
+          "id": "America/Tijuana",
+          "label": "Tijuana (Pacific)"
+        }
+      ]
+    },
+    {
+      "code": "FM",
+      "name": "Micronesia",
+      "subregion": "Micronesia",
+      "zones": [
+        {
+          "id": "Pacific/Chuuk",
+          "label": "Chuuk / Yap"
+        },
+        {
+          "id": "Pacific/Pohnpei",
+          "label": "Pohnpei"
+        },
+        {
+          "id": "Pacific/Kosrae",
+          "label": "Kosrae"
+        }
+      ]
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "subregion": "Eastern Europe",
+      "zones": [
+        {
+          "id": "Europe/Chisinau",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MC",
+      "name": "Monaco",
+      "subregion": "Western Europe",
+      "zones": [
+        {
+          "id": "Europe/Monaco",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MN",
+      "name": "Mongolia",
+      "subregion": "Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Ulaanbaatar",
+          "label": "Ulaanbaatar"
+        },
+        {
+          "id": "Asia/Hovd",
+          "label": "Hovd / western Mongolia"
+        }
+      ]
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Podgorica",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MS",
+      "name": "Montserrat",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Montserrat",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "subregion": "Northern Africa",
+      "zones": [
+        {
+          "id": "Africa/Casablanca",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MZ",
+      "name": "Mozambique",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Maputo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "subregion": "South-Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Yangon",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "NA",
+      "name": "Namibia",
+      "subregion": "Southern Africa",
+      "zones": [
+        {
+          "id": "Africa/Windhoek",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "NR",
+      "name": "Nauru",
+      "subregion": "Micronesia",
+      "zones": [
+        {
+          "id": "Pacific/Nauru",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "subregion": "Southern Asia",
+      "zones": [
+        {
+          "id": "Asia/Kathmandu",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "subregion": "Western Europe",
+      "zones": [
+        {
+          "id": "Europe/Amsterdam",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "NC",
+      "name": "New Caledonia",
+      "subregion": "Melanesia",
+      "zones": [
+        {
+          "id": "Pacific/Noumea",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "subregion": "Australia & New Zealand",
+      "zones": [
+        {
+          "id": "Pacific/Auckland",
+          "label": "Auckland / Wellington"
+        },
+        {
+          "id": "Pacific/Chatham",
+          "label": "Chatham Islands"
+        }
+      ]
+    },
+    {
+      "code": "NI",
+      "name": "Nicaragua",
+      "subregion": "Central America",
+      "zones": [
+        {
+          "id": "America/Managua",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "NE",
+      "name": "Niger",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Niamey",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Lagos",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "NU",
+      "name": "Niue",
+      "subregion": "Polynesia",
+      "zones": [
+        {
+          "id": "Pacific/Niue",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "NF",
+      "name": "Norfolk Island",
+      "subregion": "Australia & New Zealand",
+      "zones": [
+        {
+          "id": "Pacific/Norfolk",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "KP",
+      "name": "North Korea",
+      "subregion": "Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Pyongyang",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MK",
+      "name": "North Macedonia",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Skopje",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MP",
+      "name": "Northern Mariana Islands",
+      "subregion": "Micronesia",
+      "zones": [
+        {
+          "id": "Pacific/Saipan",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/Oslo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Muscat",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "subregion": "Southern Asia",
+      "zones": [
+        {
+          "id": "Asia/Karachi",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "PW",
+      "name": "Palau",
+      "subregion": "Micronesia",
+      "zones": [
+        {
+          "id": "Pacific/Palau",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "PS",
+      "name": "Palestine",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Hebron",
+          "label": "West Bank"
+        },
+        {
+          "id": "Asia/Gaza",
+          "label": "Gaza Strip"
+        }
+      ]
+    },
+    {
+      "code": "PA",
+      "name": "Panama",
+      "subregion": "Central America",
+      "zones": [
+        {
+          "id": "America/Panama",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "PG",
+      "name": "Papua New Guinea",
+      "subregion": "Melanesia",
+      "zones": [
+        {
+          "id": "Pacific/Port_Moresby",
+          "label": "Port Moresby / mainland"
+        },
+        {
+          "id": "Pacific/Bougainville",
+          "label": "Bougainville"
+        }
+      ]
+    },
+    {
+      "code": "PY",
+      "name": "Paraguay",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/Asuncion",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/Lima",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "PH",
+      "name": "Philippines",
+      "subregion": "South-Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Manila",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "PN",
+      "name": "Pitcairn Islands",
+      "subregion": "Polynesia",
+      "zones": [
+        {
+          "id": "Pacific/Pitcairn",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "subregion": "Eastern Europe",
+      "zones": [
+        {
+          "id": "Europe/Warsaw",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Lisbon",
+          "label": "Lisbon / mainland"
+        },
+        {
+          "id": "Atlantic/Madeira",
+          "label": "Madeira"
+        },
+        {
+          "id": "Atlantic/Azores",
+          "label": "Azores"
+        }
+      ]
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Puerto_Rico",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Qatar",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CG",
+      "name": "Republic of the Congo",
+      "subregion": "Middle Africa",
+      "zones": [
+        {
+          "id": "Africa/Brazzaville",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "RE",
+      "name": "Réunion",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Indian/Reunion",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "subregion": "Eastern Europe",
+      "zones": [
+        {
+          "id": "Europe/Bucharest",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "subregion": "Eastern Europe",
+      "zones": [
+        {
+          "id": "Europe/Moscow",
+          "label": "Moscow / St Petersburg"
+        },
+        {
+          "id": "Asia/Yekaterinburg",
+          "label": "Yekaterinburg"
+        },
+        {
+          "id": "Asia/Novosibirsk",
+          "label": "Novosibirsk"
+        },
+        {
+          "id": "Asia/Krasnoyarsk",
+          "label": "Krasnoyarsk"
+        },
+        {
+          "id": "Asia/Omsk",
+          "label": "Omsk"
+        },
+        {
+          "id": "Europe/Samara",
+          "label": "Samara"
+        },
+        {
+          "id": "Asia/Irkutsk",
+          "label": "Irkutsk"
+        },
+        {
+          "id": "Asia/Vladivostok",
+          "label": "Vladivostok"
+        },
+        {
+          "id": "Asia/Yakutsk",
+          "label": "Yakutsk"
+        },
+        {
+          "id": "Europe/Kaliningrad",
+          "label": "Kaliningrad"
+        },
+        {
+          "id": "Asia/Magadan",
+          "label": "Magadan / Sakhalin"
+        },
+        {
+          "id": "Asia/Kamchatka",
+          "label": "Petropavlovsk-Kamchatsky"
+        }
+      ]
+    },
+    {
+      "code": "RW",
+      "name": "Rwanda",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Kigali",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "BL",
+      "name": "Saint Barthélemy",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/St_Barthelemy",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SH",
+      "name": "Saint Helena",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Atlantic/St_Helena",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "KN",
+      "name": "Saint Kitts and Nevis",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/St_Kitts",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "LC",
+      "name": "Saint Lucia",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/St_Lucia",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "MF",
+      "name": "Saint Martin",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Marigot",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "PM",
+      "name": "Saint Pierre and Miquelon",
+      "subregion": "Northern America",
+      "zones": [
+        {
+          "id": "America/Miquelon",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/St_Vincent",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "WS",
+      "name": "Samoa",
+      "subregion": "Polynesia",
+      "zones": [
+        {
+          "id": "Pacific/Apia",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SM",
+      "name": "San Marino",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/San_Marino",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "ST",
+      "name": "São Tomé and Príncipe",
+      "subregion": "Middle Africa",
+      "zones": [
+        {
+          "id": "Africa/Sao_Tome",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Riyadh",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Dakar",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Belgrade",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SC",
+      "name": "Seychelles",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Indian/Mahe",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SL",
+      "name": "Sierra Leone",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Freetown",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "subregion": "South-Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Singapore",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SX",
+      "name": "Sint Maarten",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Lower_Princes",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SK",
+      "name": "Slovakia",
+      "subregion": "Eastern Europe",
+      "zones": [
+        {
+          "id": "Europe/Bratislava",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SI",
+      "name": "Slovenia",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Ljubljana",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SB",
+      "name": "Solomon Islands",
+      "subregion": "Melanesia",
+      "zones": [
+        {
+          "id": "Pacific/Guadalcanal",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SO",
+      "name": "Somalia",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Mogadishu",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "subregion": "Southern Africa",
+      "zones": [
+        {
+          "id": "Africa/Johannesburg",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "subregion": "Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Seoul",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SS",
+      "name": "South Sudan",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Juba",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Madrid",
+          "label": "Madrid / mainland"
+        },
+        {
+          "id": "Atlantic/Canary",
+          "label": "Canary Islands"
+        }
+      ]
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "subregion": "Southern Asia",
+      "zones": [
+        {
+          "id": "Asia/Colombo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "subregion": "Northern Africa",
+      "zones": [
+        {
+          "id": "Africa/Khartoum",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SR",
+      "name": "Suriname",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/Paramaribo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SJ",
+      "name": "Svalbard and Jan Mayen",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Arctic/Longyearbyen",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/Stockholm",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "subregion": "Western Europe",
+      "zones": [
+        {
+          "id": "Europe/Zurich",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "SY",
+      "name": "Syria",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Damascus",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "subregion": "Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Taipei",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TJ",
+      "name": "Tajikistan",
+      "subregion": "Central Asia",
+      "zones": [
+        {
+          "id": "Asia/Dushanbe",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TZ",
+      "name": "Tanzania",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Dar_es_Salaam",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "subregion": "South-Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Bangkok",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TL",
+      "name": "Timor-Leste",
+      "subregion": "South-Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Dili",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TG",
+      "name": "Togo",
+      "subregion": "Western Africa",
+      "zones": [
+        {
+          "id": "Africa/Lome",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TK",
+      "name": "Tokelau",
+      "subregion": "Polynesia",
+      "zones": [
+        {
+          "id": "Pacific/Fakaofo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TO",
+      "name": "Tonga",
+      "subregion": "Polynesia",
+      "zones": [
+        {
+          "id": "Pacific/Tongatapu",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TT",
+      "name": "Trinidad and Tobago",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Port_of_Spain",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TN",
+      "name": "Tunisia",
+      "subregion": "Northern Africa",
+      "zones": [
+        {
+          "id": "Africa/Tunis",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Europe/Istanbul",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "subregion": "Central Asia",
+      "zones": [
+        {
+          "id": "Asia/Ashgabat",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TC",
+      "name": "Turks and Caicos Islands",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/Grand_Turk",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "TV",
+      "name": "Tuvalu",
+      "subregion": "Polynesia",
+      "zones": [
+        {
+          "id": "Pacific/Funafuti",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "VI",
+      "name": "U.S. Virgin Islands",
+      "subregion": "Caribbean",
+      "zones": [
+        {
+          "id": "America/St_Thomas",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Kampala",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "subregion": "Eastern Europe",
+      "zones": [
+        {
+          "id": "Europe/Kyiv",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Dubai",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "subregion": "Northern Europe",
+      "zones": [
+        {
+          "id": "Europe/London",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "subregion": "Northern America",
+      "zones": [
+        {
+          "id": "America/New_York",
+          "label": "New York (Eastern)"
+        },
+        {
+          "id": "America/Chicago",
+          "label": "Chicago (Central)"
+        },
+        {
+          "id": "America/Los_Angeles",
+          "label": "Los Angeles (Pacific)"
+        },
+        {
+          "id": "America/Denver",
+          "label": "Denver (Mountain)"
+        },
+        {
+          "id": "America/Phoenix",
+          "label": "Phoenix / Arizona (no DST)"
+        },
+        {
+          "id": "America/Anchorage",
+          "label": "Anchorage (Alaska)"
+        },
+        {
+          "id": "Pacific/Honolulu",
+          "label": "Honolulu (Hawaii)"
+        }
+      ]
+    },
+    {
+      "code": "UY",
+      "name": "Uruguay",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/Montevideo",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "subregion": "Central Asia",
+      "zones": [
+        {
+          "id": "Asia/Tashkent",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "VU",
+      "name": "Vanuatu",
+      "subregion": "Melanesia",
+      "zones": [
+        {
+          "id": "Pacific/Efate",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "VA",
+      "name": "Vatican City",
+      "subregion": "Southern Europe",
+      "zones": [
+        {
+          "id": "Europe/Vatican",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela",
+      "subregion": "South America",
+      "zones": [
+        {
+          "id": "America/Caracas",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "subregion": "South-Eastern Asia",
+      "zones": [
+        {
+          "id": "Asia/Ho_Chi_Minh",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "WF",
+      "name": "Wallis and Futuna",
+      "subregion": "Polynesia",
+      "zones": [
+        {
+          "id": "Pacific/Wallis",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "EH",
+      "name": "Western Sahara",
+      "subregion": "Northern Africa",
+      "zones": [
+        {
+          "id": "Africa/El_Aaiun",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "YE",
+      "name": "Yemen",
+      "subregion": "Western Asia",
+      "zones": [
+        {
+          "id": "Asia/Aden",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "ZM",
+      "name": "Zambia",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Lusaka",
+          "label": null
+        }
+      ]
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "subregion": "Eastern Africa",
+      "zones": [
+        {
+          "id": "Africa/Harare",
+          "label": null
+        }
+      ]
+    }
+  ]
+}

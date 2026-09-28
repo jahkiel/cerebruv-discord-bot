@@ -1,0 +1,22 @@
+{
+  "name": "cerebruv",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cerebruv — Discord bot for Marvel Heroes Omega supergroups on Project T.A.H.I.T.I. Built for Heroes International.",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "deploy": "node --env-file-if-exists=.env src/deploy-commands.js",
+    "backup": "node --env-file-if-exists=.env scripts/backup.js",
+    "validate:data": "node scripts/validate-data.js",
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "discord.js": "^14.27.0"
+  },
+  "license": "UNLICENSED"
+}

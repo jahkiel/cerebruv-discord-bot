@@ -1,0 +1,27 @@
+{
+  "_comment": "Game progression rules for Marvel Heroes 1.52.0.1700 as played on Project T.A.H.I.T.I. Confirmed first-hand by Joewin (who plays on the server) on 2026-09-27, which outranks any wiki — most guides online describe the pre-BUE 2015/2016 game, which this build no longer is.",
+  "_prestige": "Prestiging restarts a hero at level 1 and changes their name colour in game. So level is NOT monotonic progress: a Cosmic-prestige hero at level 12 has far more time in them than a White-prestige hero at level 60. Always sort and display on (prestige, level) together — never level alone.",
+  "_editing": "Safe to edit. Run `npm run validate:data`, then /admin reload in Discord. Level and prestige bounds are enforced in application code from this file, NOT by SQL CHECK constraints — changing a CHECK requires a full table rebuild in SQLite (see migration 002), so the schema stays permissive and this file stays authoritative.",
+
+  "levelCap": 60,
+  "levelFloor": 1,
+
+  "_randomBox": "Heroes NOT in the Random Hero Box pool. The Fantastic Four and Silver Surfer were pulled from the box along with their June 2017 store delisting, per the community calculator at https://mhtahiti.com/mh-random/. This is corroborated by the 1.52 client's own store data, where Catalog.json holds exactly 58 purchasable heroes and these 5 sit separately in CatalogRestoredHeroes.json. They remain PLAYABLE (confirmed in game) — they just cannot drop from a box. Pool size is therefore 58, not 63. Edit this list and run /admin reload if T.A.H.I.T.I. differs.",
+  "randomBoxExcludes": [
+    "mister_fantastic",
+    "invisible_woman",
+    "human_torch",
+    "thing",
+    "silver_surfer"
+  ],
+
+  "prestigeTiers": [
+    { "value": 0, "name": "White",  "emoji": "⚪", "colour": 15790320 },
+    { "value": 1, "name": "Green",  "emoji": "🟢", "colour": 5763719 },
+    { "value": 2, "name": "Blue",   "emoji": "🔵", "colour": 3447003 },
+    { "value": 3, "name": "Purple", "emoji": "🟣", "colour": 10181046 },
+    { "value": 4, "name": "Orange", "emoji": "🟠", "colour": 15105570 },
+    { "value": 5, "name": "Red",    "emoji": "🔴", "colour": 15548997 },
+    { "value": 6, "name": "Cosmic", "emoji": "🟡", "colour": 16705372 }
+  ]
+}
